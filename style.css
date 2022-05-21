@@ -81,8 +81,34 @@
 }
 .line{
     color: hsl(215, 51%, 70%);
-    opacity: 0.2;
+    
 }
+
+.hidden{
+    position: absolute;
+    position: absolute;
+    background-color: hsl(178, 100%, 50% , 50%);
+    height: 250px;
+    width: 250px;
+    border-radius: 7px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+#icon-view{
+    margin-top: 102px;
+    margin-left: 102px; 
+
+}
+.hidden:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
 
 @media screen and (max-width : 770px) {
     .full-Nft{
