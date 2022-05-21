@@ -1,0 +1,106 @@
+.full{
+    background: hsl(217, 54%, 11%);
+}
+.full-Nft{
+    background: hsl(216, 50%, 16%);
+    margin-top: 75px;
+    margin-left: 40%;
+    padding: 15px 15px;
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+}
+.NFT-img{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 7px;
+}
+.title {
+    color: white;
+    font-family: 'Outfit' , sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.descrption{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit' , sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.price-tag{
+    white-space: nowrap;
+    
+}
+.price-tag div{
+    display: inline-block;
+    white-space: nowrap;
+}
+.price-tag div p{
+    display: inline-block;
+}
+.eth-pic{
+    height: 12px;
+    width: 7px;
+}
+.eth-price{
+    font-family: 'Outfit' , sans-serif;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+}
+.time{
+    font-family: 'Outfit' , sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+.clock-pic{
+    height: 12px;
+    width: 12px;
+    margin-left: 95px;
+}
+.pdp{
+    height: 20px;
+    width: 20px;
+}
+.creator{
+    white-space: nowrap;
+}
+.creator div p{
+    display: inline-block;
+    font-family: 'Outfit' , sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.first{
+    color: hsl(215, 51%, 70%);
+}
+.second{
+    color: white;
+}
+.line{
+    color: hsl(215, 51%, 70%);
+    opacity: 0.2;
+}
+
+@media screen and (max-width : 770px) {
+    .full-Nft{
+        margin-left: 25%;
+    }
+    
+}
+
+@media screen and (max-width : 447px) {
+    .full-Nft{
+        margin-left: 15%;
+    }
+    
+}
+
+@media screen and (max-width : 360px) {
+    .full-Nft{
+        margin-left: 7%;
+    }
+    
+}
