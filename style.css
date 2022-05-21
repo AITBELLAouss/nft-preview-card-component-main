@@ -81,7 +81,7 @@
 }
 .line{
     color: hsl(215, 51%, 70%);
-    
+    opacity: 0.5;
 }
 
 .hidden{
